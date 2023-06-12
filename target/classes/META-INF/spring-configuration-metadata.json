@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "elastic.apm",
+      "type": "net.javaguides.springboot.config.ElasticApmConfig",
+      "sourceType": "net.javaguides.springboot.config.ElasticApmConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "elastic.apm.application-packages",
+      "type": "java.lang.String",
+      "sourceType": "net.javaguides.springboot.config.ElasticApmConfig"
+    },
+    {
+      "name": "elastic.apm.enable-log-correlation",
+      "type": "java.lang.String",
+      "sourceType": "net.javaguides.springboot.config.ElasticApmConfig"
+    },
+    {
+      "name": "elastic.apm.environment",
+      "type": "java.lang.String",
+      "sourceType": "net.javaguides.springboot.config.ElasticApmConfig"
+    },
+    {
+      "name": "elastic.apm.log-level",
+      "type": "java.lang.String",
+      "sourceType": "net.javaguides.springboot.config.ElasticApmConfig"
+    },
+    {
+      "name": "elastic.apm.log-sending",
+      "type": "java.lang.String",
+      "sourceType": "net.javaguides.springboot.config.ElasticApmConfig"
+    },
+    {
+      "name": "elastic.apm.server-url",
+      "type": "java.lang.String",
+      "sourceType": "net.javaguides.springboot.config.ElasticApmConfig"
+    },
+    {
+      "name": "elastic.apm.service-name",
+      "type": "java.lang.String",
+      "sourceType": "net.javaguides.springboot.config.ElasticApmConfig"
+    },
+    {
+      "name": "elastic.apm.verify-server-cert",
+      "type": "java.lang.String",
+      "sourceType": "net.javaguides.springboot.config.ElasticApmConfig"
+    }
+  ],
+  "hints": []
+}

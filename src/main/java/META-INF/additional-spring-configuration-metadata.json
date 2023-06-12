@@ -1,0 +1,272 @@
+{"properties": [
+  {
+    "name": "elastic.apm.server-url",
+    "type": "java.lang.String",
+    "description": "A description for 'elastic.apm.server-url'"
+  },
+  {
+    "name": "elastic.apm.service-name",
+    "type": "java.lang.String",
+    "description": "A description for 'elastic.apm.service-name'"
+  },
+  {
+    "name": "elastic.apm.environment",
+    "type": "java.lang.String",
+    "description": "A description for 'elastic.apm.environment'"
+  },
+  {
+    "name": "elastic.apm.application-packages",
+    "type": "java.lang.String",
+    "description": "A description for 'elastic.apm.application-packages'"
+  },
+  {
+    "name": "elastic.apm.log-level",
+    "type": "java.lang.String",
+    "description": "A description for 'elastic.apm.log-level'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "employee.path",
+    "type": "java.lang.String",
+    "description": "A description for 'employee.path'"
+  },
+  {
+    "name": "elastic.apm.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'elastic.apm.enabled'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseUrl'"
+  },
+  {
+    "name": "admin.pathUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.pathUrl'"
+  },
+  {
+    "name": "admin.pathUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.pathUrl'"
+  },
+  {
+    "name": "admin.pathUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.pathUrl'"
+  },
+  {
+    "name": "admin.pathUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.pathUrl'"
+  },
+  {
+    "name": "admin.pathUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.pathUrl'"
+  },
+  {
+    "name": "admin.pathUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.pathUrl'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "admin.url.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.url.path'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "ARG",
+    "type": "java.lang.String",
+    "description": "A description for 'ARG'"
+  },
+  {
+    "name": "EMP_ADMIN_BASE_URL",
+    "type": "java.lang.String",
+    "description": "A description for 'EMP_ADMIN_BASE_URL'"
+  },
+  {
+    "name": "EMP_ADMIN_BASE_URL",
+    "type": "java.lang.String",
+    "description": "A description for 'EMP_ADMIN_BASE_URL'"
+  },
+  {
+    "name": "EMP_ADMIN_BASE_URL",
+    "type": "java.lang.String",
+    "description": "A description for 'EMP_ADMIN_BASE_URL'"
+  },
+  {
+    "name": "EMP_ADMIN_BASE_URL",
+    "type": "java.lang.String",
+    "description": "A description for 'EMP_ADMIN_BASE_URL'"
+  },
+  {
+    "name": "EMP_ADMIN_BASE_URL",
+    "type": "java.lang.String",
+    "description": "A description for 'EMP_ADMIN_BASE_URL'"
+  },
+  {
+    "name": "EMP_ADMIN_BASE_URL",
+    "type": "java.lang.String",
+    "description": "A description for 'EMP_ADMIN_BASE_URL'"
+  },
+  {
+    "name": "EMP_ADMIN_BASE_URL",
+    "type": "java.lang.String",
+    "description": "A description for 'EMP_ADMIN_BASE_URL'"
+  },
+  {
+    "name": "EMP_ADMIN_BASE_URL",
+    "type": "java.lang.String",
+    "description": "A description for 'EMP_ADMIN_BASE_URL'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "elastic.apm.enable_log_correlation",
+    "type": "java.lang.String",
+    "description": "A description for 'elastic.apm.enable_log_correlation'"
+  },
+  {
+    "name": "management.health.circuitbreakers.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'management.health.circuitbreakers.enabled'"
+  },
+  {
+    "name": "resilience4j.circuitbreaker.instances.EmployeeService.registerHealthIndicator",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuitbreaker.instances.EmployeeService.registerHealthIndicator'"
+  },
+  {
+    "name": "co.elastic.logging.jul.EcsFormatter.serviceVersion",
+    "type": "java.lang.String",
+    "description": "A description for 'co.elastic.logging.jul.EcsFormatter.serviceVersion'"
+  },
+  {
+    "name": "elastic.apm.verify_server_cert",
+    "type": "java.lang.String",
+    "description": "A description for 'elastic.apm.verify_server_cert'"
+  },
+  {
+    "name": "elastic.apm.enable_log_correlation",
+    "type": "java.lang.String",
+    "description": "A description for 'elastic.apm.enable_log_correlation'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  },
+  {
+    "name": "elastic.apm.verify_server_cert",
+    "type": "java.lang.String",
+    "description": "A description for 'elastic.apm.verify_server_cert'"
+  },
+  {
+    "name": "admin.baseurl.path",
+    "type": "java.lang.String",
+    "description": "A description for 'admin.baseurl.path'"
+  }
+]}

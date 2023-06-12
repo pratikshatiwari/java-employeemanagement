@@ -1,0 +1,1022 @@
+2023-03-30 10:02:45.894  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 7392 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 10:02:45.895  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 10:02:46.374  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:02:46.374  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:02:46.378  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:02:46.378  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:02:46.383  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:02:46.383  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:02:46.386  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:02:46.386  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:02:46.389  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:02:46.390  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:02:46.394  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:02:46.394  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:02:46.438  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 10:02:46.471  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 2 JPA repository interfaces.
+2023-03-30 10:02:46.654  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 10:02:46.656  INFO 7392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 10:02:46.656  INFO 7392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 10:02:46.701  INFO 7392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30 10:02:46.701  INFO 7392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 804 ms
+2023-03-30 10:02:46.855 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 10:02:46.856 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 10:02:46.935  INFO 7392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 10:02:46.965  INFO 7392 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 10:02:46.974  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-03-30 10:02:46.976  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-03-30 10:02:46.977  INFO 7392 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 10:02:47.051  INFO 7392 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 10:02:47.053  INFO 7392 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 10:02:47.059  WARN 7392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 10:02:47.183  WARN 7392 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-30 10:02:47.277  INFO 7392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a9c4821, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a4d5063, org.springframework.security.web.header.HeaderWriterFilter@47a07c99, org.springframework.security.web.csrf.CsrfFilter@72149aa7, org.springframework.security.web.authentication.logout.LogoutFilter@64ab7640, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1877a946, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32d52684, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ba2fad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@787aaac3, org.springframework.security.web.session.SessionManagementFilter@658933bf, org.springframework.security.web.access.ExceptionTranslationFilter@3710fd92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3556301c]
+2023-03-30 10:02:47.405 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 10:02:47.427 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2023-03-30 10:02:47.441  INFO 7392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 10:02:47.462 DEBUG 7392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 10:02:47.477 DEBUG 7392 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 10:02:48.029  INFO 7392 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 10:02:48.064  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 10:02:48.065  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 10:02:48.162  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 10:02:48.167  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 2.303 seconds (JVM running for 103.157)
+2023-03-30 10:02:48.169  INFO 7392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-30 10:02:57.282  INFO 7392 --- [http-nio-8013-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30 10:02:57.282  INFO 7392 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30 10:02:57.283 DEBUG 7392 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-03-30 10:02:57.305 DEBUG 7392 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-30 10:02:57.305  INFO 7392 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2023-03-30 10:02:57.863  WARN 7392 --- [http-nio-8013-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [350] milliseconds.
+2023-03-30 10:02:57.894 DEBUG 7392 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2023-03-30 10:02:57.902 DEBUG 7392 --- [http-nio-8013-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 10:02:57.958 DEBUG 7392 --- [http-nio-8013-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:02:58.617 DEBUG 7392 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:03:00.707 DEBUG 7392 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/registration", parameters={}
+2023-03-30 10:03:00.709 DEBUG 7392 --- [http-nio-8013-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#showRegistrationForm()
+2023-03-30 10:03:00.737 DEBUG 7392 --- [http-nio-8013-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:03:00.773 DEBUG 7392 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:03:09.743 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/registration", parameters={masked}
+2023-03-30 10:03:09.745 DEBUG 7392 --- [http-nio-8013-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#registerUserAccount(UserRegistrationDto)
+2023-03-30 10:03:10.284 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.servlet.view.RedirectView        : View name 'redirect:/registration?success', model {}
+2023-03-30 10:03:10.289 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 10:03:10.298 DEBUG 7392 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/registration?success", parameters={masked}
+2023-03-30 10:03:10.299 DEBUG 7392 --- [http-nio-8013-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#showRegistrationForm()
+2023-03-30 10:03:10.301 DEBUG 7392 --- [http-nio-8013-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:03:10.308 DEBUG 7392 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:03:13.655 DEBUG 7392 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2023-03-30 10:03:13.656 DEBUG 7392 --- [http-nio-8013-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 10:03:13.658 DEBUG 7392 --- [http-nio-8013-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:03:13.662 DEBUG 7392 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:03:18.884 DEBUG 7392 --- [http-nio-8013-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 10:03:18.885 DEBUG 7392 --- [http-nio-8013-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 10:03:18.940 DEBUG 7392 --- [http-nio-8013-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:03:18.993 DEBUG 7392 --- [http-nio-8013-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:03:22.656 DEBUG 7392 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/showNewEmployeeForm", parameters={}
+2023-03-30 10:03:22.657 DEBUG 7392 --- [http-nio-8013-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#showNewEmployeeForm(Model)
+2023-03-30 10:03:22.659  INFO 7392 --- [http-nio-8013-exec-8] n.j.s.controller.EmployeeController      : Details entered in employee form.
+2023-03-30 10:03:22.661 DEBUG 7392 --- [http-nio-8013-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:03:22.674 DEBUG 7392 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:03:40.269 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/saveEmployee", parameters={masked}
+2023-03-30 10:03:40.271 DEBUG 7392 --- [http-nio-8013-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#saveEmployee1(Employee)
+2023-03-30 10:03:40.339 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8001/admin
+2023-03-30 10:03:40.371 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2023-03-30 10:03:40.374 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.client.RestTemplate              : Writing [Employee [id=0, name=rohan]] as "application/json"
+2023-03-30 10:03:41.301 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.client.RestTemplate              : Response 200 OK
+2023-03-30 10:03:41.304 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.client.RestTemplate              : Reading to [net.javaguides.springboot.model.Details]
+2023-03-30 10:03:41.332  INFO 7392 --- [http-nio-8013-exec-9] n.j.s.controller.EmployeeController      : Employee information added in consumer service with ID: 1
+2023-03-30 10:03:41.336 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2023-03-30 10:03:41.337 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 10:03:41.345 DEBUG 7392 --- [http-nio-8013-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 10:03:41.346 DEBUG 7392 --- [http-nio-8013-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 10:03:41.351 DEBUG 7392 --- [http-nio-8013-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:03:41.370 DEBUG 7392 --- [http-nio-8013-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:09:59.697  INFO 7392 --- [Thread-800] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 10:09:59.698  INFO 7392 --- [Thread-800] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 10:09:59.905  WARN 7392 --- [Thread-800] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 10:09:59.906  INFO 7392 --- [Thread-800] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-03-30 10:09:59.912  INFO 7392 --- [Thread-800] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-03-30 10:10:00.028  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 7392 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 10:10:00.028  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 10:10:00.409  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:10:00.409  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:10:00.411  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:10:00.411  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:10:00.416  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:10:00.416  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:10:00.420  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:10:00.420  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:10:00.423  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:10:00.423  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:10:00.426  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:10:00.426  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:10:00.461  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 10:10:00.484  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 2 JPA repository interfaces.
+2023-03-30 10:10:00.625  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 10:10:00.626  INFO 7392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 10:10:00.626  INFO 7392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 10:10:00.645  INFO 7392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30 10:10:00.645  INFO 7392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 613 ms
+2023-03-30 10:10:00.767 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 10:10:00.767 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 10:10:00.823  INFO 7392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 10:10:00.839  INFO 7392 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 10:10:00.847  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-03-30 10:10:00.849  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-03-30 10:10:00.850  INFO 7392 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 10:10:00.899  WARN 7392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 10:10:00.902  INFO 7392 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 10:10:00.903  INFO 7392 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 10:10:01.064  INFO 7392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9e9f76, org.springframework.security.web.context.SecurityContextPersistenceFilter@27ce030d, org.springframework.security.web.header.HeaderWriterFilter@34b00a92, org.springframework.security.web.csrf.CsrfFilter@15f38473, org.springframework.security.web.authentication.logout.LogoutFilter@6f0e5cb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@15a10e87, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b32ce92, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c703c93, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37d63134, org.springframework.security.web.session.SessionManagementFilter@3c256a95, org.springframework.security.web.access.ExceptionTranslationFilter@5b6308d8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7127f902]
+2023-03-30 10:10:01.102  WARN 7392 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-30 10:10:01.213 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 10:10:01.230 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2023-03-30 10:10:01.243  INFO 7392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 10:10:01.261 DEBUG 7392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 10:10:01.272 DEBUG 7392 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 10:10:01.870  INFO 7392 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 10:10:01.908  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 10:10:01.910  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 10:10:02.033  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 10:10:02.040  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 2.044 seconds (JVM running for 537.03)
+2023-03-30 10:10:02.041  INFO 7392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-30 10:11:28.088  INFO 7392 --- [http-nio-8013-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30 10:11:28.088  INFO 7392 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30 10:11:28.088 DEBUG 7392 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-03-30 10:11:28.111 DEBUG 7392 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-30 10:11:28.111  INFO 7392 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2023-03-30 10:11:28.130 DEBUG 7392 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2023-03-30 10:11:28.131 DEBUG 7392 --- [http-nio-8013-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 10:11:28.146 DEBUG 7392 --- [http-nio-8013-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:11:28.175 DEBUG 7392 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:11:32.205 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/registration", parameters={}
+2023-03-30 10:11:32.206 DEBUG 7392 --- [http-nio-8013-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#showRegistrationForm()
+2023-03-30 10:11:32.210 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:11:32.229 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:11:34.321 DEBUG 7392 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2023-03-30 10:11:34.322 DEBUG 7392 --- [http-nio-8013-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 10:11:34.323 DEBUG 7392 --- [http-nio-8013-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:11:34.325 DEBUG 7392 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:11:35.893 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/login?error", parameters={masked}
+2023-03-30 10:11:35.894 DEBUG 7392 --- [http-nio-8013-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 10:11:35.896 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:11:35.899 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:11:37.759 DEBUG 7392 --- [http-nio-8013-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/registration", parameters={}
+2023-03-30 10:11:37.760 DEBUG 7392 --- [http-nio-8013-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#showRegistrationForm()
+2023-03-30 10:11:37.761 DEBUG 7392 --- [http-nio-8013-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:11:37.767 DEBUG 7392 --- [http-nio-8013-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:11:50.384 DEBUG 7392 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/registration", parameters={masked}
+2023-03-30 10:11:50.384 DEBUG 7392 --- [http-nio-8013-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#registerUserAccount(UserRegistrationDto)
+2023-03-30 10:11:50.619 DEBUG 7392 --- [http-nio-8013-exec-8] o.s.web.servlet.view.RedirectView        : View name 'redirect:/registration?success', model {}
+2023-03-30 10:11:50.620 DEBUG 7392 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 10:11:50.629 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/registration?success", parameters={masked}
+2023-03-30 10:11:50.630 DEBUG 7392 --- [http-nio-8013-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#showRegistrationForm()
+2023-03-30 10:11:50.634 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:11:50.639 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:11:52.304 DEBUG 7392 --- [http-nio-8013-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2023-03-30 10:11:52.305 DEBUG 7392 --- [http-nio-8013-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 10:11:52.306 DEBUG 7392 --- [http-nio-8013-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:11:52.309 DEBUG 7392 --- [http-nio-8013-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:11:54.502 DEBUG 7392 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/showNewEmployeeForm", parameters={}
+2023-03-30 10:11:54.503 DEBUG 7392 --- [http-nio-8013-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#showNewEmployeeForm(Model)
+2023-03-30 10:11:54.504  INFO 7392 --- [http-nio-8013-exec-3] n.j.s.controller.EmployeeController      : Details entered in employee form.
+2023-03-30 10:11:54.506 DEBUG 7392 --- [http-nio-8013-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:11:54.517 DEBUG 7392 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:12:05.228 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/saveEmployee", parameters={masked}
+2023-03-30 10:12:05.229 DEBUG 7392 --- [http-nio-8013-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#saveEmployee1(Employee)
+2023-03-30 10:12:05.234 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8001/admin
+2023-03-30 10:12:05.236 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2023-03-30 10:12:05.237 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.client.RestTemplate              : Writing [Employee [id=0, name=rohan]] as "application/json"
+2023-03-30 10:12:05.258 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.client.RestTemplate              : Response 200 OK
+2023-03-30 10:12:05.260 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.client.RestTemplate              : Reading to [net.javaguides.springboot.model.Details]
+2023-03-30 10:12:05.268  INFO 7392 --- [http-nio-8013-exec-2] n.j.s.controller.EmployeeController      : Employee information added in consumer service with ID: 1
+2023-03-30 10:12:05.272 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2023-03-30 10:12:05.273 DEBUG 7392 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 10:12:05.280 DEBUG 7392 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 10:12:05.281 DEBUG 7392 --- [http-nio-8013-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 10:12:05.296 DEBUG 7392 --- [http-nio-8013-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:12:05.313 DEBUG 7392 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:12:06.711 DEBUG 7392 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/showNewEmployeeForm", parameters={}
+2023-03-30 10:12:06.712 DEBUG 7392 --- [http-nio-8013-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#showNewEmployeeForm(Model)
+2023-03-30 10:12:06.713  INFO 7392 --- [http-nio-8013-exec-5] n.j.s.controller.EmployeeController      : Details entered in employee form.
+2023-03-30 10:12:06.714 DEBUG 7392 --- [http-nio-8013-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:12:06.718 DEBUG 7392 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:12:14.236 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/saveEmployee", parameters={masked}
+2023-03-30 10:12:14.237 DEBUG 7392 --- [http-nio-8013-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#saveEmployee1(Employee)
+2023-03-30 10:12:14.241 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8001/admin
+2023-03-30 10:12:14.243 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2023-03-30 10:12:14.244 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Writing [Employee [id=0, name=ashu]] as "application/json"
+2023-03-30 10:12:14.258 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Response 200 OK
+2023-03-30 10:12:14.260 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Reading to [net.javaguides.springboot.model.Details]
+2023-03-30 10:12:14.269  INFO 7392 --- [http-nio-8013-exec-6] n.j.s.controller.EmployeeController      : Employee information added in consumer service with ID: 2
+2023-03-30 10:12:14.270 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2023-03-30 10:12:14.271 DEBUG 7392 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 10:12:14.278 DEBUG 7392 --- [http-nio-8013-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 10:12:14.278 DEBUG 7392 --- [http-nio-8013-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 10:12:14.282 DEBUG 7392 --- [http-nio-8013-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:12:14.286 DEBUG 7392 --- [http-nio-8013-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:12:16.900 DEBUG 7392 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/showFormForUpdate/2", parameters={}
+2023-03-30 10:12:16.900 DEBUG 7392 --- [http-nio-8013-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#showFormForUpdate(long, Model)
+2023-03-30 10:12:16.912  INFO 7392 --- [http-nio-8013-exec-8] n.j.s.controller.EmployeeController      : Employee information updated in consumer service with ID: 2
+2023-03-30 10:12:16.914 DEBUG 7392 --- [http-nio-8013-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:12:16.921 DEBUG 7392 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:12:21.298 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/saveEmployee", parameters={masked}
+2023-03-30 10:12:21.300 DEBUG 7392 --- [http-nio-8013-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#saveEmployee1(Employee)
+2023-03-30 10:12:21.303 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8001/admin
+2023-03-30 10:12:21.306 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2023-03-30 10:12:21.307 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.client.RestTemplate              : Writing [Employee [id=2, name=ashu]] as "application/json"
+2023-03-30 10:12:21.438 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.client.RestTemplate              : Response 200 OK
+2023-03-30 10:12:21.439 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.client.RestTemplate              : Reading to [net.javaguides.springboot.model.Details]
+2023-03-30 10:12:21.459  INFO 7392 --- [http-nio-8013-exec-9] n.j.s.controller.EmployeeController      : Employee information added in consumer service with ID: 2
+2023-03-30 10:12:21.459 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2023-03-30 10:12:21.461 DEBUG 7392 --- [http-nio-8013-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 10:12:21.467 DEBUG 7392 --- [http-nio-8013-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 10:12:21.468 DEBUG 7392 --- [http-nio-8013-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 10:12:21.473 DEBUG 7392 --- [http-nio-8013-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 10:12:21.479 DEBUG 7392 --- [http-nio-8013-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 10:15:01.413  INFO 7392 --- [Thread-1587] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 10:15:01.413  INFO 7392 --- [Thread-1587] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 10:15:01.622  WARN 7392 --- [Thread-1587] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 10:15:01.622  INFO 7392 --- [Thread-1587] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-03-30 10:15:01.629  INFO 7392 --- [Thread-1587] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-03-30 10:15:01.732  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 7392 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 10:15:01.732  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 10:15:02.186  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:15:02.186  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:15:02.187  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:15:02.187  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:15:02.191  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:15:02.191  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:15:02.193  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:15:02.194  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:15:02.196  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:15:02.196  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:15:02.198  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 10:15:02.198  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 10:15:02.235  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 10:15:02.257  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 2 JPA repository interfaces.
+2023-03-30 10:15:02.394  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 10:15:02.395  INFO 7392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 10:15:02.395  INFO 7392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 10:15:02.413  INFO 7392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30 10:15:02.413  INFO 7392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 680 ms
+2023-03-30 10:15:02.534 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 10:15:02.535 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 10:15:02.588  INFO 7392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 10:15:02.604  INFO 7392 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 10:15:02.611  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-03-30 10:15:02.616  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-03-30 10:15:02.617  INFO 7392 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 10:15:02.664  INFO 7392 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 10:15:02.664  INFO 7392 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 10:15:02.670  WARN 7392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 10:15:02.781  WARN 7392 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-30 10:15:02.842  INFO 7392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2adccc07, org.springframework.security.web.context.SecurityContextPersistenceFilter@73707952, org.springframework.security.web.header.HeaderWriterFilter@1f831909, org.springframework.security.web.csrf.CsrfFilter@38f34563, org.springframework.security.web.authentication.logout.LogoutFilter@5fb02a0d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@188994cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b3868d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fe660c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@544462da, org.springframework.security.web.session.SessionManagementFilter@4ab5468b, org.springframework.security.web.access.ExceptionTranslationFilter@3c204ab0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69220d5d]
+2023-03-30 10:15:02.951 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 10:15:02.966 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2023-03-30 10:15:02.979  INFO 7392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 10:15:02.998 DEBUG 7392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 10:15:03.009 DEBUG 7392 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 10:15:03.495  INFO 7392 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 10:15:03.528  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 10:15:03.528  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 10:15:03.621  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 10:15:03.626  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 1.925 seconds (JVM running for 838.617)
+2023-03-30 10:15:03.628  INFO 7392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-30 10:18:16.503  WARN 7392 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=3m13s781ms156µs900ns).
+2023-03-30 11:23:52.574  WARN 7392 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h3m36s36ms745µs300ns).
+2023-03-30 14:53:46.993  WARN 7392 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=2h15m23s369ms1µs600ns).
+2023-03-30 14:55:30.279  INFO 7392 --- [Thread-2374] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 14:55:30.280  INFO 7392 --- [Thread-2374] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 14:55:30.495  WARN 7392 --- [Thread-2374] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 14:55:30.496  INFO 7392 --- [Thread-2374] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-03-30 14:55:30.497  INFO 7392 --- [Thread-2374] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-03-30 14:55:30.652  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 7392 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 14:55:30.653  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 14:55:31.196  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:55:31.196  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:55:31.199  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:55:31.200  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:55:31.208  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:55:31.208  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:55:31.211  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:55:31.211  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:55:31.214  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:55:31.215  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:55:31.218  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:55:31.218  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:55:31.266  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 14:55:31.291  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 2 JPA repository interfaces.
+2023-03-30 14:55:31.454  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 14:55:31.455  INFO 7392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 14:55:31.455  INFO 7392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 14:55:31.481  INFO 7392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30 14:55:31.481  INFO 7392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 819 ms
+2023-03-30 14:55:31.640 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 14:55:31.640 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 14:55:31.708  INFO 7392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 14:55:31.731  INFO 7392 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 14:55:31.737  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-03-30 14:55:31.738  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-03-30 14:55:31.739  INFO 7392 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 14:55:31.791  INFO 7392 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 14:55:31.792  INFO 7392 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 14:55:31.799  WARN 7392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 14:55:31.896  WARN 7392 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-30 14:55:31.987  INFO 7392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d2cb857, org.springframework.security.web.context.SecurityContextPersistenceFilter@383d4044, org.springframework.security.web.header.HeaderWriterFilter@6fe8dc61, org.springframework.security.web.csrf.CsrfFilter@59bfbfcb, org.springframework.security.web.authentication.logout.LogoutFilter@5cb661fa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@485d1625, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@da9517a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b70afdb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52aaa26d, org.springframework.security.web.session.SessionManagementFilter@54413b99, org.springframework.security.web.access.ExceptionTranslationFilter@be2b4f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60f7ca6]
+2023-03-30 14:55:32.115 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 14:55:32.143 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2023-03-30 14:55:32.161  INFO 7392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 14:55:32.182 DEBUG 7392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 14:55:32.191 DEBUG 7392 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 14:55:32.729  INFO 7392 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 14:55:32.764  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 14:55:32.764  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 14:55:32.856  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 14:55:32.861  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 2.263 seconds (JVM running for 17667.852)
+2023-03-30 14:55:32.862  INFO 7392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-30 14:57:45.910  INFO 7392 --- [Thread-3161] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 14:57:45.911  INFO 7392 --- [Thread-3161] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 14:57:46.123  WARN 7392 --- [Thread-3161] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 14:57:46.123  INFO 7392 --- [Thread-3161] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-03-30 14:57:46.126  INFO 7392 --- [Thread-3161] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-03-30 14:57:46.229  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 7392 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 14:57:46.229  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 14:57:46.471  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:57:46.471  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:57:46.473  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:57:46.473  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:57:46.477  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:57:46.478  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:57:46.481  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:57:46.481  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:57:46.483  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:57:46.483  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:57:46.485  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:57:46.485  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:57:46.521  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 14:57:46.523  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2023-03-30 14:57:46.673  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 14:57:46.673  INFO 7392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 14:57:46.673  INFO 7392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 14:57:46.693  INFO 7392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30 14:57:46.693  INFO 7392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 463 ms
+2023-03-30 14:57:46.802 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 14:57:46.802 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 14:57:46.862  INFO 7392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 14:57:46.876  INFO 7392 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 14:57:46.888  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-03-30 14:57:46.890  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-03-30 14:57:46.890  INFO 7392 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 14:57:46.911  INFO 7392 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 14:57:46.912  INFO 7392 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 14:57:46.941  WARN 7392 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-30 14:57:46.981  WARN 7392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 14:57:47.129 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 14:57:47.147 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2023-03-30 14:57:47.160  INFO 7392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 14:57:47.179 DEBUG 7392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 14:57:47.190 DEBUG 7392 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 14:57:47.638  INFO 7392 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1d067883-b407-4b63-9fb2-d72828921bb1
+
+2023-03-30 14:57:47.692  INFO 7392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@575fe081, org.springframework.security.web.context.SecurityContextPersistenceFilter@140667fc, org.springframework.security.web.header.HeaderWriterFilter@32ef606d, org.springframework.security.web.csrf.CsrfFilter@349647b7, org.springframework.security.web.authentication.logout.LogoutFilter@5449d5e1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@305ce9d4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@15a01b05, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1fba3a3e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@179cbb21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@723c1d26, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fdf1e38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59705a46, org.springframework.security.web.session.SessionManagementFilter@2bcf85c6, org.springframework.security.web.access.ExceptionTranslationFilter@5827509, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7284ddcd]
+2023-03-30 14:57:47.766  INFO 7392 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 14:57:47.800  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 14:57:47.801  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 14:57:47.801  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 14:57:47.806  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 1.602 seconds (JVM running for 17802.796)
+2023-03-30 14:57:47.809  INFO 7392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration#inMemoryUserDetailsManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) found bean 'org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityConfigurerAdapter'; @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-03-30 14:58:12.773  INFO 7392 --- [Thread-3948] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 14:58:12.774  INFO 7392 --- [Thread-3948] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 14:58:12.985  WARN 7392 --- [Thread-3948] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 14:58:12.985  INFO 7392 --- [Thread-3948] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-03-30 14:58:12.987  INFO 7392 --- [Thread-3948] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-03-30 14:58:13.210  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 7392 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 14:58:13.210  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 14:58:13.946  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:58:13.947  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:58:13.954  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:58:13.955  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:58:13.968  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:58:13.970  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:58:13.983  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:58:13.984  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:58:13.996  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:58:13.997  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:58:14.006  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:58:14.007  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:58:14.150  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 14:58:14.153  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2023-03-30 14:58:14.609  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 14:58:14.609  INFO 7392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 14:58:14.609  INFO 7392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 14:58:14.668  INFO 7392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30 14:58:14.669  INFO 7392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1454 ms
+2023-03-30 14:58:14.970 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 14:58:14.970 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 14:58:15.147  INFO 7392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 14:58:15.180  INFO 7392 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 14:58:15.201  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-03-30 14:58:15.204  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-03-30 14:58:15.205  INFO 7392 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 14:58:15.235  INFO 7392 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 14:58:15.236  INFO 7392 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 14:58:15.326  WARN 7392 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-30 14:58:15.387  WARN 7392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 14:58:15.739 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 14:58:15.778 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2023-03-30 14:58:15.815  INFO 7392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 14:58:15.869 DEBUG 7392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 14:58:15.898 DEBUG 7392 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 14:58:17.009  INFO 7392 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 28227298-5ca7-4d15-a27c-a83b7958d64a
+
+2023-03-30 14:58:17.054  INFO 7392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25923cea, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c12e66, org.springframework.security.web.header.HeaderWriterFilter@89fd930, org.springframework.security.web.csrf.CsrfFilter@6f59f93b, org.springframework.security.web.authentication.logout.LogoutFilter@38ae0fe7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@67ae2a0d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6d7cff0a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7cd01ac2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@e39c3c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5aa8e3b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10de820d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6659dae4, org.springframework.security.web.session.SessionManagementFilter@69cd192b, org.springframework.security.web.access.ExceptionTranslationFilter@5023d475, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@36dcb014]
+2023-03-30 14:58:17.130  INFO 7392 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 14:58:17.163  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 14:58:17.164  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 14:58:17.164  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 14:58:17.170  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 4.022 seconds (JVM running for 17832.16)
+2023-03-30 14:58:17.171  INFO 7392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-30 14:59:13.890  INFO 7392 --- [Thread-4351] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 14:59:13.890  INFO 7392 --- [Thread-4351] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 14:59:14.096  WARN 7392 --- [Thread-4351] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 14:59:14.096  INFO 7392 --- [Thread-4351] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2023-03-30 14:59:14.102  INFO 7392 --- [Thread-4351] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2023-03-30 14:59:14.215  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 7392 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 14:59:14.216  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 14:59:14.508  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:59:14.508  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:59:14.511  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:59:14.511  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:59:14.517  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:59:14.517  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:59:14.521  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:59:14.521  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:59:14.523  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:59:14.523  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:59:14.526  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 14:59:14.528  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 14:59:14.578  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 14:59:14.580  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2023-03-30 14:59:14.788  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 14:59:14.789  INFO 7392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 14:59:14.789  INFO 7392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 14:59:14.824  INFO 7392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30 14:59:14.824  INFO 7392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 607 ms
+2023-03-30 14:59:14.976 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 14:59:14.976 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 14:59:15.050  INFO 7392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 14:59:15.075  INFO 7392 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 14:59:15.098  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2023-03-30 14:59:15.100  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2023-03-30 14:59:15.100  INFO 7392 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 14:59:15.117  INFO 7392 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 14:59:15.117  INFO 7392 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 14:59:15.159  WARN 7392 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-30 14:59:15.211  WARN 7392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 14:59:15.377 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 14:59:15.395 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2023-03-30 14:59:15.409  INFO 7392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 14:59:15.438 DEBUG 7392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 14:59:15.453 DEBUG 7392 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 14:59:16.051  INFO 7392 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d3df6653-b01d-475d-b60a-4f368d6545e1
+
+2023-03-30 14:59:16.090  INFO 7392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66551e65, org.springframework.security.web.context.SecurityContextPersistenceFilter@33560cbc, org.springframework.security.web.header.HeaderWriterFilter@394e8b5c, org.springframework.security.web.csrf.CsrfFilter@211b4cee, org.springframework.security.web.authentication.logout.LogoutFilter@102ec976, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@50d8f636, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3ee8707e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5ea5888, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@729655cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@421aeb91, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ecb4ed8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7adc0097, org.springframework.security.web.session.SessionManagementFilter@6317f486, org.springframework.security.web.access.ExceptionTranslationFilter@5ac6ba16, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a0bd087]
+2023-03-30 14:59:16.167  INFO 7392 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 14:59:16.200  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 14:59:16.200  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 14:59:16.200  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 14:59:16.206  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 2.02 seconds (JVM running for 17891.196)
+2023-03-30 14:59:16.207  INFO 7392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-30 15:00:27.122  INFO 7392 --- [Thread-4754] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 15:00:27.122  INFO 7392 --- [Thread-4754] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 15:00:27.327  WARN 7392 --- [Thread-4754] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 15:00:27.327  INFO 7392 --- [Thread-4754] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2023-03-30 15:00:27.334  INFO 7392 --- [Thread-4754] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2023-03-30 15:00:27.437  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 7392 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 15:00:27.439  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 15:00:27.732  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:00:27.732  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:00:27.734  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:00:27.734  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:00:27.738  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:00:27.738  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:00:27.740  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:00:27.740  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:00:27.743  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:00:27.743  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:00:27.745  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:00:27.745  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:00:27.786  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 15:00:27.790  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+2023-03-30 15:00:27.932  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 15:00:27.933  INFO 7392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 15:00:27.933  INFO 7392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 15:00:27.953  INFO 7392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30 15:00:27.953  INFO 7392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 514 ms
+2023-03-30 15:00:28.089 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 15:00:28.089 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 15:00:28.151  INFO 7392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 15:00:28.163  INFO 7392 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 15:00:28.175  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2023-03-30 15:00:28.176  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2023-03-30 15:00:28.177  INFO 7392 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 15:00:28.187  INFO 7392 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 15:00:28.187  INFO 7392 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 15:00:28.214  WARN 7392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 15:00:28.358 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 15:00:28.377 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2023-03-30 15:00:28.395  INFO 7392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 15:00:28.464  WARN 7392 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-30 15:00:28.467 DEBUG 7392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 15:00:28.477 DEBUG 7392 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 15:00:28.974  INFO 7392 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1de5b9de-5b45-4407-8668-e26997330af6
+
+2023-03-30 15:00:29.017  INFO 7392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6917ce0f, org.springframework.security.web.context.SecurityContextPersistenceFilter@65143f2c, org.springframework.security.web.header.HeaderWriterFilter@2b91d676, org.springframework.security.web.csrf.CsrfFilter@1d72f1e, org.springframework.security.web.authentication.logout.LogoutFilter@228423c1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f732c11, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@211391ec, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5d854dc9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@64650a5f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11529dfe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6dbf0e54, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c51b63e, org.springframework.security.web.session.SessionManagementFilter@94cede8, org.springframework.security.web.access.ExceptionTranslationFilter@7e714bed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3cf92c76]
+2023-03-30 15:00:29.112  INFO 7392 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 15:00:29.141  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 15:00:29.141  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 15:00:29.142  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 15:00:29.146  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 1.736 seconds (JVM running for 17964.137)
+2023-03-30 15:00:29.148  INFO 7392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-30 15:16:04.932  INFO 7392 --- [Thread-5157] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 15:16:04.932  INFO 7392 --- [Thread-5157] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 15:16:05.143  WARN 7392 --- [Thread-5157] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 15:16:05.143  INFO 7392 --- [Thread-5157] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2023-03-30 15:16:05.145  INFO 7392 --- [Thread-5157] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2023-03-30 15:18:12.300  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 7392 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 15:18:12.300  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 15:18:12.700  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:18:12.700  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:18:12.702  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:18:12.703  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:18:12.707  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:18:12.707  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:18:12.710  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:18:12.711  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:18:12.714  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:18:12.714  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:18:12.717  INFO 7392 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:18:12.717  INFO 7392 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:18:12.769  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 15:18:12.792  INFO 7392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 2 JPA repository interfaces.
+2023-03-30 15:18:12.945  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 15:18:12.945  INFO 7392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 15:18:12.945  INFO 7392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 15:18:12.967  INFO 7392 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-03-30 15:18:12.967  INFO 7392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 666 ms
+2023-03-30 15:18:13.119 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 15:18:13.119 DEBUG 7392 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 15:18:13.214  INFO 7392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 15:18:13.233  INFO 7392 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 15:18:13.238  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2023-03-30 15:18:13.240  INFO 7392 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2023-03-30 15:18:13.240  INFO 7392 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 15:18:13.278  INFO 7392 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 15:18:13.278  INFO 7392 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 15:18:13.290  WARN 7392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 15:18:13.381  WARN 7392 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-30 15:18:13.463  INFO 7392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d082efe, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e26f9a0, org.springframework.security.web.header.HeaderWriterFilter@486ee257, org.springframework.security.web.csrf.CsrfFilter@5519a5e5, org.springframework.security.web.authentication.logout.LogoutFilter@1cbf8ecf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@195395c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4abe7f63, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52c060f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d5b1cd1, org.springframework.security.web.session.SessionManagementFilter@4c6816ff, org.springframework.security.web.access.ExceptionTranslationFilter@56605bb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51e666c9]
+2023-03-30 15:18:13.612 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 15:18:13.630 DEBUG 7392 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2023-03-30 15:18:13.644  INFO 7392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 15:18:13.667 DEBUG 7392 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 15:18:13.678 DEBUG 7392 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 15:18:14.242  INFO 7392 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 15:18:14.279  INFO 7392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 15:18:14.280  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 15:18:14.363  INFO 7392 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 15:18:14.369  INFO 7392 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 2.092 seconds (JVM running for 19029.359)
+2023-03-30 15:18:14.370  INFO 7392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ElasticApmConfig matched:
+      - @ConditionalOnProperty (elastic.apm.enabled=true) matched (OnPropertyCondition)
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' securityConfiguration (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userServiceImpl and found beans of type 'org.springframework.security.authentication.AuthenticationProvider' authenticationProvider (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-03-30 15:18:44.952  INFO 7392 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-30 15:18:45.086  INFO 7392 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 15:18:45.087  INFO 7392 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 15:18:45.300  WARN 7392 --- [RMI TCP Connection(6)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 15:18:45.300  INFO 7392 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2023-03-30 15:18:45.304  INFO 7392 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2023-03-30 15:19:06.634  INFO 9488 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 9488 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 15:19:06.636  INFO 9488 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 15:19:07.347  INFO 9488 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:19:07.348  INFO 9488 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:19:07.357  INFO 9488 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:19:07.357  INFO 9488 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:19:07.371  INFO 9488 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:19:07.372  INFO 9488 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:19:07.382  INFO 9488 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:19:07.382  INFO 9488 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:19:07.391  INFO 9488 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:19:07.391  INFO 9488 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:19:07.399  INFO 9488 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:19:07.399  INFO 9488 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:19:07.517  INFO 9488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 15:19:07.582  INFO 9488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 2 JPA repository interfaces.
+2023-03-30 15:19:08.205  INFO 9488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 15:19:08.211  INFO 9488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 15:19:08.212  INFO 9488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 15:19:08.347  INFO 9488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30 15:19:08.348  INFO 9488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1688 ms
+2023-03-30 15:19:08.563 DEBUG 9488 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 15:19:08.564 DEBUG 9488 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 15:19:08.701  INFO 9488 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 15:19:08.748  INFO 9488 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 15:19:08.806  INFO 9488 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2023-03-30 15:19:08.909  INFO 9488 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-03-30 15:19:08.972  INFO 9488 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-30 15:19:09.088  INFO 9488 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-30 15:19:09.098  INFO 9488 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 15:19:09.677  INFO 9488 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 15:19:09.682  INFO 9488 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 15:19:12.373  INFO 9488 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-30 15:19:12.445  WARN 9488 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 15:19:12.764  INFO 9488 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ef1fbc3, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d34567, org.springframework.security.web.header.HeaderWriterFilter@4bf2529f, org.springframework.security.web.csrf.CsrfFilter@222660c7, org.springframework.security.web.authentication.logout.LogoutFilter@2ebcf7e8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@c28ca76, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@332273c5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ea4ce6e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19921a8, org.springframework.security.web.session.SessionManagementFilter@222c0dff, org.springframework.security.web.access.ExceptionTranslationFilter@dea2b93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59d63f76]
+2023-03-30 15:19:13.011 DEBUG 9488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 15:19:13.078 DEBUG 9488 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2023-03-30 15:19:13.092  INFO 9488 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 15:19:13.130 DEBUG 9488 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 15:19:13.145 DEBUG 9488 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 15:19:13.958  INFO 9488 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 15:19:14.058  INFO 9488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 15:19:14.059  INFO 9488 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 15:19:14.339  INFO 9488 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 15:19:14.350  INFO 9488 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 7.959 seconds (JVM running for 9.374)
+2023-03-30 15:19:14.960  INFO 9488 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30 15:19:14.960  INFO 9488 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30 15:19:14.960 DEBUG 9488 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-03-30 15:19:14.975 DEBUG 9488 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-30 15:19:14.975  INFO 9488 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2023-03-30 15:19:54.095  WARN 9488 --- [http-nio-8013-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [325] milliseconds.
+2023-03-30 15:19:54.120 DEBUG 9488 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2023-03-30 15:19:54.126 DEBUG 9488 --- [http-nio-8013-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 15:19:54.199 DEBUG 9488 --- [http-nio-8013-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:19:54.688 DEBUG 9488 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:19:56.989 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/registration", parameters={}
+2023-03-30 15:19:56.990 DEBUG 9488 --- [http-nio-8013-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#showRegistrationForm()
+2023-03-30 15:19:57.014 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:19:57.037 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:20:07.603 DEBUG 9488 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/registration", parameters={masked}
+2023-03-30 15:20:07.604 DEBUG 9488 --- [http-nio-8013-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#registerUserAccount(UserRegistrationDto)
+2023-03-30 15:20:07.970 DEBUG 9488 --- [http-nio-8013-exec-4] o.s.web.servlet.view.RedirectView        : View name 'redirect:/registration?success', model {}
+2023-03-30 15:20:07.973 DEBUG 9488 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 15:20:07.980 DEBUG 9488 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/registration?success", parameters={masked}
+2023-03-30 15:20:07.981 DEBUG 9488 --- [http-nio-8013-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#showRegistrationForm()
+2023-03-30 15:20:07.981 DEBUG 9488 --- [http-nio-8013-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:20:07.985 DEBUG 9488 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:20:09.843 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2023-03-30 15:20:09.844 DEBUG 9488 --- [http-nio-8013-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 15:20:09.845 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:20:09.848 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:20:11.875 DEBUG 9488 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 15:20:11.876 DEBUG 9488 --- [http-nio-8013-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 15:20:11.915 DEBUG 9488 --- [http-nio-8013-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:20:11.949 DEBUG 9488 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:20:19.117 DEBUG 9488 --- [http-nio-8013-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/showNewEmployeeForm", parameters={}
+2023-03-30 15:20:19.118 DEBUG 9488 --- [http-nio-8013-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#showNewEmployeeForm(Model)
+2023-03-30 15:20:19.119  INFO 9488 --- [http-nio-8013-exec-9] n.j.s.controller.EmployeeController      : Details entered in employee form.
+2023-03-30 15:20:19.120 DEBUG 9488 --- [http-nio-8013-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:20:19.131 DEBUG 9488 --- [http-nio-8013-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:20:26.443 DEBUG 9488 --- [http-nio-8013-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/saveEmployee", parameters={masked}
+2023-03-30 15:20:26.444 DEBUG 9488 --- [http-nio-8013-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#saveEmployee1(Employee)
+2023-03-30 15:20:26.491 DEBUG 9488 --- [http-nio-8013-exec-10] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8001/admin
+2023-03-30 15:20:26.522 DEBUG 9488 --- [http-nio-8013-exec-10] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2023-03-30 15:20:26.526 DEBUG 9488 --- [http-nio-8013-exec-10] o.s.web.client.RestTemplate              : Writing [Employee [id=0, name=rohan]] as "application/json"
+2023-03-30 15:20:27.101 DEBUG 9488 --- [http-nio-8013-exec-10] o.s.web.client.RestTemplate              : Response 200 OK
+2023-03-30 15:20:27.102 DEBUG 9488 --- [http-nio-8013-exec-10] o.s.web.client.RestTemplate              : Reading to [net.javaguides.springboot.model.Details]
+2023-03-30 15:20:27.118  INFO 9488 --- [http-nio-8013-exec-10] n.j.s.controller.EmployeeController      : Employee information added in consumer service with ID: 1
+2023-03-30 15:20:27.120 DEBUG 9488 --- [http-nio-8013-exec-10] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2023-03-30 15:20:27.121 DEBUG 9488 --- [http-nio-8013-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 15:20:27.126 DEBUG 9488 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 15:20:27.126 DEBUG 9488 --- [http-nio-8013-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 15:20:27.129 DEBUG 9488 --- [http-nio-8013-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:20:27.142 DEBUG 9488 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:20:28.734 DEBUG 9488 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/showNewEmployeeForm", parameters={}
+2023-03-30 15:20:28.735 DEBUG 9488 --- [http-nio-8013-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#showNewEmployeeForm(Model)
+2023-03-30 15:20:28.735  INFO 9488 --- [http-nio-8013-exec-2] n.j.s.controller.EmployeeController      : Details entered in employee form.
+2023-03-30 15:20:28.736 DEBUG 9488 --- [http-nio-8013-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:20:28.738 DEBUG 9488 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:20:36.647 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/saveEmployee", parameters={masked}
+2023-03-30 15:20:36.647 DEBUG 9488 --- [http-nio-8013-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#saveEmployee1(Employee)
+2023-03-30 15:20:36.651 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8001/admin
+2023-03-30 15:20:36.652 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2023-03-30 15:20:36.653 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.web.client.RestTemplate              : Writing [Employee [id=0, name=ashu]] as "application/json"
+2023-03-30 15:20:36.665 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.web.client.RestTemplate              : Response 200 OK
+2023-03-30 15:20:36.667 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.web.client.RestTemplate              : Reading to [net.javaguides.springboot.model.Details]
+2023-03-30 15:20:36.671  INFO 9488 --- [http-nio-8013-exec-3] n.j.s.controller.EmployeeController      : Employee information added in consumer service with ID: 2
+2023-03-30 15:20:36.673 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2023-03-30 15:20:36.674 DEBUG 9488 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 15:20:36.678 DEBUG 9488 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 15:20:36.679 DEBUG 9488 --- [http-nio-8013-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 15:20:36.682 DEBUG 9488 --- [http-nio-8013-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:20:36.685 DEBUG 9488 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:20:38.759 DEBUG 9488 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/showFormForUpdate/1", parameters={}
+2023-03-30 15:20:38.760 DEBUG 9488 --- [http-nio-8013-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#showFormForUpdate(long, Model)
+2023-03-30 15:20:38.769  INFO 9488 --- [http-nio-8013-exec-5] n.j.s.controller.EmployeeController      : Employee information updated in consumer service with ID: 1
+2023-03-30 15:20:38.771 DEBUG 9488 --- [http-nio-8013-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:20:38.777 DEBUG 9488 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:20:42.778 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/saveEmployee", parameters={masked}
+2023-03-30 15:20:42.779 DEBUG 9488 --- [http-nio-8013-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#saveEmployee1(Employee)
+2023-03-30 15:20:42.783 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8001/admin
+2023-03-30 15:20:42.784 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2023-03-30 15:20:42.784 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Writing [Employee [id=1, name=rohan]] as "application/json"
+2023-03-30 15:20:42.832 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Response 200 OK
+2023-03-30 15:20:42.833 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Reading to [net.javaguides.springboot.model.Details]
+2023-03-30 15:20:42.847  INFO 9488 --- [http-nio-8013-exec-6] n.j.s.controller.EmployeeController      : Employee information added in consumer service with ID: 1
+2023-03-30 15:20:42.849 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2023-03-30 15:20:42.849 DEBUG 9488 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 15:20:42.854 DEBUG 9488 --- [http-nio-8013-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 15:20:42.854 DEBUG 9488 --- [http-nio-8013-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 15:20:42.857 DEBUG 9488 --- [http-nio-8013-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:20:42.861 DEBUG 9488 --- [http-nio-8013-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:33:18.131  INFO 9488 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-30 15:33:18.287  INFO 9488 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 15:33:18.290  INFO 9488 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 15:33:18.509  WARN 9488 --- [RMI TCP Connection(4)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 15:33:18.510  INFO 9488 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-30 15:33:18.514  INFO 9488 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-30 15:34:46.015  INFO 22960 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Starting EmployeeManagementWebappApplication on LPNIFL4SCL3 with PID 22960 (C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main\target\classes started by Rohan.Virmani in C:\Users\Rohan.Virmani\Desktop\New folder\employee-management-webapp-main)
+2023-03-30 15:34:46.017  INFO 22960 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : No active profile set, falling back to default profiles: default
+2023-03-30 15:34:46.770  INFO 22960 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:34:46.771  INFO 22960 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:34:46.783  INFO 22960 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:34:46.783  INFO 22960 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:34:46.800  INFO 22960 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:34:46.800  INFO 22960 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:34:46.810  INFO 22960 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:34:46.810  INFO 22960 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:34:46.820  INFO 22960 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:34:46.821  INFO 22960 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:34:46.833  INFO 22960 --- [restartedMain] i.g.r.utils.RxJava2OnClasspathCondition  : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2023-03-30 15:34:46.833  INFO 22960 --- [restartedMain] i.g.r.utils.ReactorOnClasspathCondition  : Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2023-03-30 15:34:46.972  INFO 22960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-30 15:34:47.036  INFO 22960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 2 JPA repository interfaces.
+2023-03-30 15:34:47.669  INFO 22960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8013 (http)
+2023-03-30 15:34:47.676  INFO 22960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 15:34:47.676  INFO 22960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-30 15:34:47.807  INFO 22960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30 15:34:47.808  INFO 22960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1763 ms
+2023-03-30 15:34:48.031 DEBUG 22960 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2023-03-30 15:34:48.031 DEBUG 22960 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-03-30 15:34:48.200  INFO 22960 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-30 15:34:48.245  INFO 22960 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 15:34:48.294  INFO 22960 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2023-03-30 15:34:48.415  INFO 22960 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-03-30 15:34:48.496  INFO 22960 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-30 15:34:48.582  INFO 22960 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-30 15:34:48.594  INFO 22960 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 15:34:49.146  INFO 22960 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 15:34:49.152  INFO 22960 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 15:34:51.897  WARN 22960 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 15:34:52.092  WARN 22960 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-30 15:34:52.302  INFO 22960 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65079a25, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ed85277, org.springframework.security.web.header.HeaderWriterFilter@358cf5c1, org.springframework.security.web.csrf.CsrfFilter@58c2a102, org.springframework.security.web.authentication.logout.LogoutFilter@68658de3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@580f06b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@434014e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e202590, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11ba04aa, org.springframework.security.web.session.SessionManagementFilter@4710a6ea, org.springframework.security.web.access.ExceptionTranslationFilter@67f09db9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25022373]
+2023-03-30 15:34:52.563 DEBUG 22960 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-30 15:34:52.635 DEBUG 22960 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2023-03-30 15:34:52.649  INFO 22960 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-30 15:34:52.692 DEBUG 22960 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-30 15:34:52.707 DEBUG 22960 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-30 15:34:53.532  INFO 22960 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-03-30 15:34:53.640  INFO 22960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8013 (http) with context path ''
+2023-03-30 15:34:53.642  INFO 22960 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-30 15:34:53.952  INFO 22960 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-30 15:34:53.965  INFO 22960 --- [restartedMain] .j.s.EmployeeManagementWebappApplication : Started EmployeeManagementWebappApplication in 8.184 seconds (JVM running for 9.081)
+2023-03-30 15:34:54.841  INFO 22960 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30 15:34:54.841  INFO 22960 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30 15:34:54.842 DEBUG 22960 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-03-30 15:34:54.857 DEBUG 22960 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-30 15:34:54.857  INFO 22960 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2023-03-30 15:35:02.548 DEBUG 22960 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/login?logout", parameters={masked}
+2023-03-30 15:35:02.552 DEBUG 22960 --- [http-nio-8013-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 15:35:02.614 DEBUG 22960 --- [http-nio-8013-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:03.094  WARN 22960 --- [http-nio-8013-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [178] milliseconds.
+2023-03-30 15:35:03.106 DEBUG 22960 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:35:04.780 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/registration", parameters={}
+2023-03-30 15:35:04.781 DEBUG 22960 --- [http-nio-8013-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#showRegistrationForm()
+2023-03-30 15:35:04.800 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:04.819 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:35:14.019 DEBUG 22960 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/registration", parameters={masked}
+2023-03-30 15:35:14.020 DEBUG 22960 --- [http-nio-8013-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#registerUserAccount(UserRegistrationDto)
+2023-03-30 15:35:14.393 DEBUG 22960 --- [http-nio-8013-exec-4] o.s.web.servlet.view.RedirectView        : View name 'redirect:/registration?success', model {}
+2023-03-30 15:35:14.395 DEBUG 22960 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 15:35:14.402 DEBUG 22960 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/registration?success", parameters={masked}
+2023-03-30 15:35:14.403 DEBUG 22960 --- [http-nio-8013-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.UserRegistrationController#showRegistrationForm()
+2023-03-30 15:35:14.404 DEBUG 22960 --- [http-nio-8013-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:14.407 DEBUG 22960 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:35:16.562 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2023-03-30 15:35:16.563 DEBUG 22960 --- [http-nio-8013-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 15:35:16.564 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:16.567 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:35:18.425 DEBUG 22960 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 15:35:18.426 DEBUG 22960 --- [http-nio-8013-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 15:35:18.455 DEBUG 22960 --- [http-nio-8013-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:18.496 DEBUG 22960 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:35:22.001 DEBUG 22960 --- [http-nio-8013-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/showNewEmployeeForm", parameters={}
+2023-03-30 15:35:22.001 DEBUG 22960 --- [http-nio-8013-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#showNewEmployeeForm(Model)
+2023-03-30 15:35:22.001  INFO 22960 --- [http-nio-8013-exec-9] n.j.s.controller.EmployeeController      : Details entered in employee form.
+2023-03-30 15:35:22.004 DEBUG 22960 --- [http-nio-8013-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:22.013 DEBUG 22960 --- [http-nio-8013-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:35:38.058 DEBUG 22960 --- [http-nio-8013-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/saveEmployee", parameters={masked}
+2023-03-30 15:35:38.059 DEBUG 22960 --- [http-nio-8013-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#saveEmployee1(Employee)
+2023-03-30 15:35:38.107 DEBUG 22960 --- [http-nio-8013-exec-10] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8001/admin
+2023-03-30 15:35:38.128 DEBUG 22960 --- [http-nio-8013-exec-10] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2023-03-30 15:35:38.131 DEBUG 22960 --- [http-nio-8013-exec-10] o.s.web.client.RestTemplate              : Writing [Employee [id=0, name=rohan]] as "application/json"
+2023-03-30 15:35:38.842 DEBUG 22960 --- [http-nio-8013-exec-10] o.s.web.client.RestTemplate              : Response 200 OK
+2023-03-30 15:35:38.845 DEBUG 22960 --- [http-nio-8013-exec-10] o.s.web.client.RestTemplate              : Reading to [net.javaguides.springboot.model.Details]
+2023-03-30 15:35:38.871  INFO 22960 --- [http-nio-8013-exec-10] n.j.s.controller.EmployeeController      : Employee information added in consumer service with ID: 1
+2023-03-30 15:35:38.876 DEBUG 22960 --- [http-nio-8013-exec-10] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2023-03-30 15:35:38.878 DEBUG 22960 --- [http-nio-8013-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 15:35:38.886 DEBUG 22960 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 15:35:38.887 DEBUG 22960 --- [http-nio-8013-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 15:35:38.892 DEBUG 22960 --- [http-nio-8013-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:38.907 DEBUG 22960 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:35:40.236 DEBUG 22960 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/showNewEmployeeForm", parameters={}
+2023-03-30 15:35:40.236 DEBUG 22960 --- [http-nio-8013-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#showNewEmployeeForm(Model)
+2023-03-30 15:35:40.237  INFO 22960 --- [http-nio-8013-exec-2] n.j.s.controller.EmployeeController      : Details entered in employee form.
+2023-03-30 15:35:40.238 DEBUG 22960 --- [http-nio-8013-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:40.240 DEBUG 22960 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:35:49.260 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/saveEmployee", parameters={masked}
+2023-03-30 15:35:49.261 DEBUG 22960 --- [http-nio-8013-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#saveEmployee1(Employee)
+2023-03-30 15:35:49.264 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8001/admin
+2023-03-30 15:35:49.265 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2023-03-30 15:35:49.266 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.web.client.RestTemplate              : Writing [Employee [id=0, name=ashu]] as "application/json"
+2023-03-30 15:35:49.289 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.web.client.RestTemplate              : Response 200 OK
+2023-03-30 15:35:49.289 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.web.client.RestTemplate              : Reading to [net.javaguides.springboot.model.Details]
+2023-03-30 15:35:49.293  INFO 22960 --- [http-nio-8013-exec-3] n.j.s.controller.EmployeeController      : Employee information added in consumer service with ID: 2
+2023-03-30 15:35:49.294 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2023-03-30 15:35:49.294 DEBUG 22960 --- [http-nio-8013-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 15:35:49.299 DEBUG 22960 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 15:35:49.300 DEBUG 22960 --- [http-nio-8013-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 15:35:49.303 DEBUG 22960 --- [http-nio-8013-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:49.306 DEBUG 22960 --- [http-nio-8013-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:35:52.423 DEBUG 22960 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/showFormForUpdate/1", parameters={}
+2023-03-30 15:35:52.424 DEBUG 22960 --- [http-nio-8013-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#showFormForUpdate(long, Model)
+2023-03-30 15:35:52.433  INFO 22960 --- [http-nio-8013-exec-5] n.j.s.controller.EmployeeController      : Employee information updated in consumer service with ID: 1
+2023-03-30 15:35:52.435 DEBUG 22960 --- [http-nio-8013-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:52.442 DEBUG 22960 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:35:56.293 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/saveEmployee", parameters={masked}
+2023-03-30 15:35:56.294 DEBUG 22960 --- [http-nio-8013-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#saveEmployee1(Employee)
+2023-03-30 15:35:56.297 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8001/admin
+2023-03-30 15:35:56.297 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2023-03-30 15:35:56.299 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Writing [Employee [id=1, name=rohan]] as "application/json"
+2023-03-30 15:35:56.346 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Response 200 OK
+2023-03-30 15:35:56.347 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.web.client.RestTemplate              : Reading to [net.javaguides.springboot.model.Details]
+2023-03-30 15:35:56.357  INFO 22960 --- [http-nio-8013-exec-6] n.j.s.controller.EmployeeController      : Employee information added in consumer service with ID: 1
+2023-03-30 15:35:56.358 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2023-03-30 15:35:56.359 DEBUG 22960 --- [http-nio-8013-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-03-30 15:35:56.363 DEBUG 22960 --- [http-nio-8013-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 15:35:56.364 DEBUG 22960 --- [http-nio-8013-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 15:35:56.366 DEBUG 22960 --- [http-nio-8013-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:35:56.370 DEBUG 22960 --- [http-nio-8013-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:45:04.604 DEBUG 22960 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 15:45:04.605 DEBUG 22960 --- [http-nio-8013-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 15:45:04.608 DEBUG 22960 --- [http-nio-8013-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:45:04.615 DEBUG 22960 --- [http-nio-8013-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 15:45:59.091 DEBUG 22960 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2023-03-30 15:45:59.092 DEBUG 22960 --- [http-nio-8013-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 15:45:59.093 DEBUG 22960 --- [http-nio-8013-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 15:45:59.097 DEBUG 22960 --- [http-nio-8013-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 16:04:47.254 DEBUG 22960 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2023-03-30 16:04:47.256 DEBUG 22960 --- [http-nio-8013-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.MainController#login()
+2023-03-30 16:04:47.258 DEBUG 22960 --- [http-nio-8013-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 16:04:47.261 DEBUG 22960 --- [http-nio-8013-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 16:07:07.015 DEBUG 22960 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-30 16:07:07.016 DEBUG 22960 --- [http-nio-8013-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to net.javaguides.springboot.controller.EmployeeController#viewHomePage(Model)
+2023-03-30 16:07:07.024 DEBUG 22960 --- [http-nio-8013-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-30 16:07:07.028 DEBUG 22960 --- [http-nio-8013-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-30 16:07:34.991  INFO 22960 --- [http-nio-8013-exec-10] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xc6l0xa80xb950xfa0x9f0xbc3<0xed0xa19\0xeehC(0xe30xefN0xe6]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2023-03-30 16:07:34.991  INFO 22960 --- [http-nio-8013-exec-9] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03CO0x9fe0x950x0e0xf00x88H0x17#j0xd4*0x960xa4I0xa70xc90xael0xe40xca0xe00x92>0x9bY0x1f0xd10xda0xa5]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2023-03-30 16:09:25.727  INFO 22960 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-30 16:09:25.891  INFO 22960 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 16:09:25.894  INFO 22960 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-30 16:09:26.113  WARN 22960 --- [RMI TCP Connection(3)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-03-30 16:09:26.114  INFO 22960 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-30 16:09:26.121  INFO 22960 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
